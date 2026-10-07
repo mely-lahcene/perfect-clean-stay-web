@@ -110909,8 +110909,12 @@ l=o.c
 l=A.ag(B.b.S(l).length!==0?l:o.b,g,g,g,B.q8,g,g,g)
 k=A.ag(o.b,g,g,g,g,g,g,g)
 j=A.b([],r)
-j.push(A.nr(B.Ub,B.awm,new A.aJb(a,o),g))
-j.push(B.bw)
+i=B.b.S(h.a.c.b)
+i=i.toLowerCase()==="admin"||i.toLowerCase()==="bureau"
+if(i)j.push(A.nr(B.Ub,B.awm,new A.aJb(a,o),g))
+i=B.b.S(h.a.c.b)
+i=i.toLowerCase()==="admin"||i.toLowerCase()==="bureau"
+if(i)j.push(B.bw)
 j.push(B.Ud)
 i=h.a.c
 if(i.e){i=B.b.S(i.b)
